@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Conditional statements</h1>
+    <script>
+
+    </script>
+
+  </body>
+</html>
+
+
+
+      <input type="button" value="day" style="width:40pt; height: 30pt; background-color:white;"
+      onclick="var target = document.querySelector('body');
+               target.style.backgroundColor = 'white';
+               target.style.color = 'black';
+
+               var alist = document.querySelectorAll('a');
+               var i = 0;
+               while(i < alist.length){
+               alist[i].style.color = 'black';
+               i = i + 1;}
+               ">
+
+
+      <input type="button" value="night" style="width:40pt; height: 30pt; background-color: black; color: white"
+      onclick="var target = document.querySelector('body');
+               target.style.backgroundColor = 'black';
+               target.style.color = 'white';
+
+               var alist = document.querySelectorAll('a');
+               var i = 0;
+               while(i < alist.length){
+               alist[i].style.color = 'powderblue';
+               i = i + 1;}
+               ">
